@@ -1,0 +1,112 @@
+ @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-size: cover;
+    background-position: center;
+
+
+    text-align: center;
+    color: white;
+    
+}
+
+.container{
+    display: flex;
+justify-content: space-between;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    font-family: cabin;
+
+    
+}
+
+#top{
+    background-color: #111921;
+}
+
+#top1{
+    background-color: #233040;
+}
+
+#search{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 50px;
+}
+.search input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+#cart{
+    margin-top: 8px;
+    margin-right: 16px;
+}
+#ind{
+    margin-top: 15px;
+}
+.text{
+    margin-top: 15px;
+}
+.text1{
+    margin-top: 15px;
+}
+#all{
+    margin-left: 8px;
+    margin-top: 15px;
+}
+#arrow{
+    margin-top: 15px;
+}
+#design{
+    margin-bottom: 25px;
+}
+#blaptop{
+    
+}
+#aka{
+    
+}
+#square{
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+#pic1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+#pic2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+#pic3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+#pic4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
